@@ -29,7 +29,7 @@ BraceWrapping:
   SplitEmptyRecord: true
   SplitEmptyNamespace: true
 BreakBeforeBraces: Custom
-ColumnLimit: 120
+ColumnLimit: 150
 ContinuationIndentWidth: 0
 Cpp11BracedListStyle: false
 IncludeCategories: 
@@ -48,5 +48,6 @@ MaxEmptyLinesToKeep: 2
 NamespaceIndentation: Inner
 SpacesInAngles: false
 TabWidth: 4
-FixNamespaceComments: false
+FixNamespaceComments: true
+PointerAlignment: Left
 ...
