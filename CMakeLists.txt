@@ -2,9 +2,11 @@ cmake_minimum_required(VERSION 3.5.0)
 set(CMAKE_GENERATOR_PLATFORM "x64")
 set(VCPKG_TARGET_TRIPLET x64-windows-static)
 set (CMAKE_CXX_STANDARD 23)
+
+# vcpkg integrate install
 # ON Windows set one time then remove. Change path if difrent
-# set(CMAKE_TOOLCHAIN_FILE "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake")
-set(CMAKE_PREFIX_PATH "C:/tools/vcpkg/installed/x64-windows-static/share")
+set(CMAKE_TOOLCHAIN_FILE "C:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake")
+# set(CMAKE_PREFIX_PATH "C:/tools/vcpkg/installed/x64-windows-static/share")
 
 
 project(miror VERSION 0.1.0 LANGUAGES C CXX)
