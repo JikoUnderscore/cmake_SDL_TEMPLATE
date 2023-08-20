@@ -1,2 +1,6 @@
 # cmake sucks
-Note: Only SDL2 work for static linking on windows. I can not make SDL_image to link staticly
+
+## This repo is only for VCPKG
+
+Note: run `vcpkg integrate install` command and post the output to CmakeLists.txt
+
